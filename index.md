@@ -111,7 +111,7 @@
 
 ## 📄 Resume  
 
-📌 **Resume (PDF):** [View/Download Resume](https://shanthoshii.github.io/Shanthoshi_S)
+📌 **Resume (PDF):** [View/Download Resume](https://shanthoshii.github.io/Shanthoshi_S.pdf)
 
 ---
 
@@ -119,4 +119,4 @@
 
 🔗 **Website:** [shanthoshii.github.io](https://shanthoshii.github.io)
 
----
+----
