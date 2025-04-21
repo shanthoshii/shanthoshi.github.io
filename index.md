@@ -45,52 +45,134 @@
 - 🏅 **Associate Data Analyst in SQL** – DataCamp  
  
 ---
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Projects</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+    .projects-title {
+      text-align: center;
+      font-size: 2.5em;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 20px;
+    }
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    .project-card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+      text-align: center;
+    }
+    .project-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+    }
+    .project-title {
+      font-size: 1.5em;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .project-description {
+      color: #555;
+      font-size: 0.95em;
+      margin-bottom: 15px;
+    }
+    .project-links {
+      margin-top: 10px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 15px;
+      margin-right: 10px;
+      text-decoration: none;
+      color: white;
+      font-size: 0.9em;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .repo-btn {
+      background-color: #007bff;
+    }
+    .repo-btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2 class="projects-title">🚀 My Projects</h2>
+    <div class="projects-grid">
 
-## 🚀 Projects  
+      <div class="project-card">
+        <i class="fas fa-database fa-2x" style="color:#007bff;"></i>
+        <div class="project-title">LinkedIn Job Scraper</div>
+        <p class="project-description">Extracted job listings from LinkedIn using Requests and BeautifulSoup, saved to CSV & SQLite.</p>
+        <div class="project-links">
+          <a href="https://github.com/shanthoshii/Linkedin-Job-Scraper-Using-Web-Scraping" class="btn repo-btn">Repo</a>
+        </div>
+      </div>
 
-<div align="center">
+      <div class="project-card">
+        <i class="fas fa-chart-line fa-2x" style="color:#007bff;"></i>
+        <div class="project-title">Supermarket Sales Analysis</div>
+        <p class="project-description">Performed SQL-based EDA to discover sales trends, behavior, and profitability insights.</p>
+        <div class="project-links">
+          <a href="https://github.com/shanthoshii/Supermarket-Sales-Analysis-Exploratory-Data-Analysis-Using-SQL" class="btn repo-btn">Repo</a>
+        </div>
+      </div>
 
-<table>
-  <tr>
-    <td><strong>LinkedIn Job Scraper</strong><br>
-    <a href="https://github.com/shanthoshii/Linkedin-Job-Scraper-Using-Web-Scraping">🔗 GitHub Repo</a><br>
-    Scraped job listings from LinkedIn using Requests & BeautifulSoup. Saved job title, company, location & links into CSV.
-    </td>
-  </tr>
+      <div class="project-card">
+        <i class="fas fa-chart-bar fa-2x" style="color:#F2C811;"></i>
+        <div class="project-title">Netflix Dashboard – Power BI</div>
+        <p class="project-description">Interactive dashboard showing insights on genres, release trends, ratings using Power BI.</p>
+        <div class="project-links">
+          <a href="https://github.com/shanthoshii/Netflix-Dashboard-POWER-BI" class="btn repo-btn">Repo</a>
+        </div>
+      </div>
 
-  <tr>
-    <td><strong>Supermarket Sales Analysis (SQL)</strong><br>
-    <a href="https://github.com/shanthoshii/Supermarket-Sales-Analysis-Exploratory-Data-Analysis-Using-SQL">🔗 GitHub Repo</a><br>
-    Performed SQL-based EDA to find trends in sales, revenue, and customer behavior from supermarket transactions.
-    </td>
-  </tr>
+      <div class="project-card">
+        <i class="fas fa-futbol fa-2x" style="color:#4CAF50;"></i>
+        <div class="project-title">FIFA Player Data Analysis</div>
+        <p class="project-description">Cleaned & analyzed FIFA player statistics to explore skills and position trends.</p>
+        <div class="project-links">
+          <a href="https://github.com/shanthoshii/FIFA-Player-Data-Cleaning-Analysis-Visualization" class="btn repo-btn">Repo</a>
+        </div>
+      </div>
 
-  <tr>
-    <td><strong>Netflix Dashboard – Power BI</strong><br>
-    <a href="https://github.com/shanthoshii/Netflix-Dashboard-POWER-BI">🔗 GitHub Repo</a><br>
-    Designed an interactive Power BI dashboard to explore Netflix's shows and movies by genre, region, and ratings.
-    </td>
-  </tr>
+      <div class="project-card">
+        <i class="fas fa-users fa-2x" style="color:#ff9900;"></i>
+        <div class="project-title">Customer Segmentation</div>
+        <p class="project-description">SQL-based segmentation to group customers based on demographics and purchases.</p>
+        <div class="project-links">
+          <a href="https://github.com/shanthoshii/-Customer-Segmentation-Analysis-using-SQL" class="btn repo-btn">Repo</a>
+        </div>
+      </div>
 
-  <tr>
-    <td><strong>FIFA Player Data Cleaning & Analysis</strong><br>
-    <a href="https://github.com/shanthoshii/FIFA-Player-Data-Cleaning-Analysis-Visualization">🔗 GitHub Repo</a><br>
-    Cleaned and analyzed FIFA player statistics to visualize distributions and trends in skills, positions, and performance.
-    </td>
-  </tr>
-
-  <tr>
-    <td><strong>Customer Segmentation (SQL)</strong><br>
-    <a href="https://github.com/shanthoshii/-Customer-Segmentation-Analysis-using-SQL">🔗 GitHub Repo</a><br>
-    Used SQL to identify customer groups based on demographics and purchase patterns for better targeting strategies.
-    </td>
-  </tr>
-
-</table>
-
-</div>
-
----
+    </div>
+  </div>
+</body>
+</html>
 
 ## ✍ Blog  
 
