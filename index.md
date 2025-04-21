@@ -45,134 +45,37 @@
 - 🏅 **Associate Data Analyst in SQL** – DataCamp  
  
 ---
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Projects</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
-  <style>
-    body {
-      font-family: 'Poppins', sans-serif;
-      background-color: #f8f9fa;
-      margin: 0;
-      padding: 0;
-    }
-    .container {
-      max-width: 1200px;
-      margin: 40px auto;
-      padding: 20px;
-    }
-    .projects-title {
-      text-align: center;
-      font-size: 2.5em;
-      font-weight: bold;
-      color: #333;
-      margin-bottom: 20px;
-    }
-    .projects-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 20px;
-    }
-    .project-card {
-      background: white;
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
-      transition: transform 0.3s ease-in-out, box-shadow 0.3s;
-      text-align: center;
-    }
-    .project-card:hover {
-      transform: scale(1.05);
-      box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
-    }
-    .project-title {
-      font-size: 1.5em;
-      font-weight: bold;
-      margin-bottom: 10px;
-    }
-    .project-description {
-      color: #555;
-      font-size: 0.95em;
-      margin-bottom: 15px;
-    }
-    .project-links {
-      margin-top: 10px;
-    }
-    .btn {
-      display: inline-block;
-      padding: 10px 15px;
-      margin-right: 10px;
-      text-decoration: none;
-      color: white;
-      font-size: 0.9em;
-      border-radius: 6px;
-      font-weight: bold;
-      transition: background 0.3s;
-    }
-    .repo-btn {
-      background-color: #007bff;
-    }
-    .repo-btn:hover {
-      background-color: #0056b3;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <h2 class="projects-title">🚀 My Projects</h2>
-    <div class="projects-grid">
+## 🚀 My Projects
 
-      <div class="project-card">
-        <i class="fas fa-database fa-2x" style="color:#007bff;"></i>
-        <div class="project-title">LinkedIn Job Scraper</div>
-        <p class="project-description">Extracted job listings from LinkedIn using Requests and BeautifulSoup, saved to CSV & SQLite.</p>
-        <div class="project-links">
-          <a href="https://github.com/shanthoshii/Linkedin-Job-Scraper-Using-Web-Scraping" class="btn repo-btn">Repo</a>
-        </div>
-      </div>
+---
 
-      <div class="project-card">
-        <i class="fas fa-chart-line fa-2x" style="color:#007bff;"></i>
-        <div class="project-title">Supermarket Sales Analysis</div>
-        <p class="project-description">Performed SQL-based EDA to discover sales trends, behavior, and profitability insights.</p>
-        <div class="project-links">
-          <a href="https://github.com/shanthoshii/Supermarket-Sales-Analysis-Exploratory-Data-Analysis-Using-SQL" class="btn repo-btn">Repo</a>
-        </div>
-      </div>
+### 🔹 LinkedIn Job Scraper  
+Extracted job listings from LinkedIn using Requests and BeautifulSoup. Saved job title, company, location & job links into CSV and SQLite.  
+🔗 [Repo](https://github.com/shanthoshii/Linkedin-Job-Scraper-Using-Web-Scraping)
 
-      <div class="project-card">
-        <i class="fas fa-chart-bar fa-2x" style="color:#F2C811;"></i>
-        <div class="project-title">Netflix Dashboard – Power BI</div>
-        <p class="project-description">Interactive dashboard showing insights on genres, release trends, ratings using Power BI.</p>
-        <div class="project-links">
-          <a href="https://github.com/shanthoshii/Netflix-Dashboard-POWER-BI" class="btn repo-btn">Repo</a>
-        </div>
-      </div>
+---
 
-      <div class="project-card">
-        <i class="fas fa-futbol fa-2x" style="color:#4CAF50;"></i>
-        <div class="project-title">FIFA Player Data Analysis</div>
-        <p class="project-description">Cleaned & analyzed FIFA player statistics to explore skills and position trends.</p>
-        <div class="project-links">
-          <a href="https://github.com/shanthoshii/FIFA-Player-Data-Cleaning-Analysis-Visualization" class="btn repo-btn">Repo</a>
-        </div>
-      </div>
+### 🔹 Supermarket Sales Analysis (SQL)  
+Performed SQL-based Exploratory Data Analysis to uncover sales trends, customer behavior, and revenue insights.  
+🔗 [Repo](https://github.com/shanthoshii/Supermarket-Sales-Analysis-Exploratory-Data-Analysis-Using-SQL)
 
-      <div class="project-card">
-        <i class="fas fa-users fa-2x" style="color:#ff9900;"></i>
-        <div class="project-title">Customer Segmentation</div>
-        <p class="project-description">SQL-based segmentation to group customers based on demographics and purchases.</p>
-        <div class="project-links">
-          <a href="https://github.com/shanthoshii/-Customer-Segmentation-Analysis-using-SQL" class="btn repo-btn">Repo</a>
-        </div>
-      </div>
+---
 
-    </div>
-  </div>
-</body>
-</html>
+### 🔹 Netflix Dashboard – Power BI  
+Developed an interactive dashboard analyzing 8809 Netflix movies and shows by genre, year, country, and rating.  
+🔗 [Repo](https://github.com/shanthoshii/Netflix-Dashboard-POWER-BI)
+
+---
+
+### 🔹 FIFA Player Data Cleaning & Analysis  
+Cleaned and analyzed FIFA player stats to visualize trends in performance, skill metrics, and positions.  
+🔗 [Repo](https://github.com/shanthoshii/FIFA-Player-Data-Cleaning-Analysis-Visualization)
+
+---
+
+### 🔹 Customer Segmentation (SQL)  
+Used SQL queries to group customers based on purchasing behavior and demographics for better targeting.  
+🔗 [Repo](https://github.com/shanthoshii/-Customer-Segmentation-Analysis-using-SQL)
 
 ## ✍ Blog  
 
