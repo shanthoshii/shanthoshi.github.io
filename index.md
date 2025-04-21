@@ -87,7 +87,7 @@ Used SQL queries to group customers based on purchasing behavior and demographic
 ## 📬 Let's Connect  
 
 <p align="center">
-  <a href="mailto:shanthoshi0504@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="mail_to:shanthoshi0504@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/shanthoshi-s"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://github.com/shanthoshii"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
@@ -96,9 +96,10 @@ Used SQL queries to group customers based on purchasing behavior and demographic
 
 ## 📄 Resume  
 
-📌 **Resume (PDF):** [View/Download Resume](https://shanthoshi.github.io/Shanthoshi_S.pdf)
+📌 📄 **Resume:** [View Resume](https://github.com/shanthoshii/shanthoshi.github.io/blob/main/Shanthoshi_S.pdf) (Click to View)
 
 ---
 
-## 🌐 Live Portfolio:[shanthoshii.github.io]( https://shanthoshii.github.io/shanthoshi.github.io/)
+## 🌐 Live Portfolio: [shanthoshii.github.io]( https://shanthoshii.github.io/shanthoshi.github.io/)
+🎨 Designed by **[Shanthoshi S]** 🚀  
 ----
