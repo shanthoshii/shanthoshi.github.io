@@ -2,6 +2,6 @@ theme: jekyll-theme-cayman # Or any other theme
 title: "Shanthoshi S <br> Data Engineer & Data Analyst Enthusiast"
 description: ""
 show_downloads: false
-include: ["index.md"]
+include: ["index.html"]
 
 theme: jekyll-theme-cayman # Or any other theme
