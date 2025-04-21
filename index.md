@@ -100,7 +100,5 @@ Used SQL queries to group customers based on purchasing behavior and demographic
 
 ---
 
-## 🌐 Live Portfolio  
-
-🔗 **Website:** [shanthoshii.github.io](https://shanthoshii.github.io)
+## 🌐 Live Portfolio:** [shanthoshii.github.io]( https://shanthoshii.github.io/shanthoshi.github.io/)
 ----
