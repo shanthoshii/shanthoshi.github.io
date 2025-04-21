@@ -96,9 +96,9 @@ Used SQL queries to group customers based on purchasing behavior and demographic
 
 ## 📄 Resume  
 
-📌 **Resume (PDF):** [View/Download Resume](https://shanthoshii.github.io/Shanthoshi_S.pdf)
+📌 **Resume (PDF):** [View/Download Resume](https://shanthoshi.github.io/Shanthoshi_S.pdf)
 
 ---
 
-## 🌐 Live Portfolio:** [shanthoshii.github.io]( https://shanthoshii.github.io/shanthoshi.github.io/)
+## 🌐 Live Portfolio:[shanthoshii.github.io]( https://shanthoshii.github.io/shanthoshi.github.io/)
 ----
