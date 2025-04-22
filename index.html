@@ -2,24 +2,50 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Shanthoshi S | Portfolio</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shanthoshi S | Data Engineer & Data Analyst Enthusiast</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
   <style>
-    body {
-      font-family: 'Poppins', sans-serif;
-      background-color: #f8f9fa;
+    * {
+      box-sizing: border-box;
       margin: 0;
       padding: 0;
     }
-    h1, h2 {
-      text-align: center;
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f4f4f4;
       color: #333;
+      line-height: 1.6;
     }
-    .container {
+    header {
+      background-color: #007bff;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .section {
+      padding: 40px 20px;
       max-width: 1200px;
-      margin: 40px auto;
-      padding: 20px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 2rem;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      padding: 8px 0;
+    }
+    .badge-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 20px;
     }
     .projects-grid {
       display: grid;
@@ -29,17 +55,11 @@
     .project-card {
       background: white;
       padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
       text-align: center;
-      transition: transform 0.3s ease-in-out, box-shadow 0.3s;
-    }
-    .project-card:hover {
-      transform: scale(1.05);
-      box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
     }
     .project-title {
-      font-size: 1.5em;
       font-weight: bold;
       margin: 10px 0;
     }
@@ -47,19 +67,15 @@
       font-size: 0.95em;
       color: #555;
     }
-    .project-links {
-      margin-top: 10px;
-    }
-    .btn {
+    .project-links .btn {
       display: inline-block;
       padding: 10px 15px;
-      margin: 5px;
-      border-radius: 6px;
+      margin: 10px 5px 0;
+      border-radius: 5px;
       font-weight: bold;
       text-decoration: none;
       font-size: 0.9em;
       color: white;
-      transition: background 0.3s;
     }
     .repo-btn {
       background-color: #007bff;
@@ -67,105 +83,113 @@
     .repo-btn:hover {
       background-color: #0056b3;
     }
-    .section {
-      margin: 40px 0;
-    }
-    .badge-list {
+    .footer {
       text-align: center;
-      margin-top: 10px;
+      font-size: 0.9em;
+      padding: 20px;
+      background: #f1f1f1;
+    }
+    .footer a {
+      color: #007bff;
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
+  <header>
+    <h1>🚀 Hi, I'm Shanthoshi S!</h1>
+    <p>Data Engineer & Data Analyst Enthusiast | Passionate about Turning Raw Data into Insights 📊</p>
+    <p>Empowering Decisions with Data | Seeking Entry-Level Roles</p>
+  </header>
 
-  <h1>🚀 Hi, I'm Shanthoshi S!</h1>
-  <p align="center"><b>Data Analyst | Passionate about Turning Raw Data into Meaningful Insights 📊</b></p>
-  <p align="center">🎯 Empowering Decisions with Data | Actively Seeking Entry-Level Roles & Internships</p>
-
-  <div class="container section">
+  <section class="section">
     <h2>🌟 About Me</h2>
     <ul>
-      <li>🎓 <b>Education:</b> BCom (Computer Applications), Sri Krishna Adithya College of Arts and Science (2021–2024)</li>
-      <li>💡 <b>Skills:</b> Python, SQL, Power BI, Excel, Web Scraping, Data Visualization</li>
-      <li>📌 <b>Currently Learning:</b> ETL Concepts, Blogging Data Insights, Deepening SQL Mastery</li>
-      <li>🎯 <b>Aspiration:</b> To grow as a skilled <b>Data Analyst</b></li>
-      <li>🔍 <b>Looking For:</b> Entry-Level Opportunities in Analytics / Internships</li>
+      <li>🎓 <strong>Education:</strong> BCom (Computer Applications), Sri Krishna Adithya College of Arts and Science (2021–2024)</li>
+      <li>💡 <strong>Skills:</strong> Python, SQL, Power BI, Web Scraping, NumPy, Pandas, Seaborn, Matplotlib, DAX, Dashboarding</li>
+      <li>📌 <strong>Currently Learning:</strong> PySpark, Machine Learning</li>
+      <li>🎯 <strong>Goal:</strong> Become a skilled Data Analyst & Data Engineer</li>
+      <li>🔍 <strong>Opportunities:</strong> Entry-Level & Internship Roles</li>
     </ul>
-  </div>
+  </section>
 
-  <div class="container section">
+  <section class="section">
     <h2>🛠 Skills & Technologies</h2>
     <div class="badge-list">
       <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
       <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
       <img src="https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
-      <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" />
+      <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+      <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+      <img src="https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+      <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white" />
       <img src="https://img.shields.io/badge/WebScraping-6BA539?style=for-the-badge&logo=python&logoColor=white" />
+      <img src="https://img.shields.io/badge/DAX-FF6F00?style=for-the-badge&logo=powerbi&logoColor=white" />
+      <img src="https://img.shields.io/badge/Dashboarding-FFC107?style=for-the-badge&logo=tableau&logoColor=black" />
     </div>
-  </div>
+  </section>
 
-  <div class="container section">
+  <section class="section">
     <h2>🚀 My Projects</h2>
     <div class="projects-grid">
-
       <div class="project-card">
-        <i class="fas fa-magnifying-glass-chart fa-2x" style="color:#007bff;"></i>
         <div class="project-title">LinkedIn Job Scraper</div>
-        <p class="project-description">Scraped job listings using BeautifulSoup and Requests. Stored data in CSV/SQLite for trend analysis.</p>
+        <p class="project-description">Scraped LinkedIn jobs using BeautifulSoup & Requests. Saved data for analysis.</p>
         <div class="project-links">
-          <a href="https://github.com/shanthoshii" class="btn repo-btn">Repo</a>
+          <a href="https://github.com/shanthoshii/Linkedin-Job-Scraper" class="btn repo-btn">Repo</a>
         </div>
       </div>
 
       <div class="project-card">
-        <i class="fas fa-store fa-2x" style="color:#007bff;"></i>
         <div class="project-title">EDA - Supermarket Sales</div>
-        <p class="project-description">Analyzed supermarket sales data to uncover insights in revenue trends, payment types, and branch performance.</p>
+        <p class="project-description">Performed EDA on supermarket data: trends, payments, peak hours.</p>
         <div class="project-links">
-          <a href="https://github.com/shanthoshii" class="btn repo-btn">Repo</a>
+          <a href="https://github.com/shanthoshii/Supermarket-Sales-Analysis" class="btn repo-btn">Repo</a>
         </div>
       </div>
 
       <div class="project-card">
-        <i class="fas fa-film fa-2x" style="color:#F2C811;"></i>
         <div class="project-title">Netflix Dashboard (Power BI)</div>
-        <p class="project-description">Interactive dashboard analyzing Netflix content by genre, release year, and country using Power BI.</p>
+        <p class="project-description">Dashboard of Netflix data by genre, country, release year.</p>
         <div class="project-links">
-          <a href="https://github.com/shanthoshii" class="btn repo-btn">Repo</a>
+          <a href="https://github.com/shanthoshii/Netflix-Dashboard-PowerBI" class="btn repo-btn">Repo</a>
         </div>
       </div>
-
     </div>
-  </div>
+  </section>
 
-  <div class="container section">
+  <section class="section">
     <h2>📚 Certifications</h2>
     <ul>
-      <li>🏅 <b>Associate Data Analyst - SQL</b> (DataCamp)</li>
-      <li>🏅 <b>Data Science and Analytics</b> (Peopleclick Learning)</li>
+      <li>🏅 Associate Data Analyst - SQL (DataCamp)</li>
+      <li>🏅 Data Science and Analytics (Peopleclick Learning)</li>
     </ul>
-  </div>
+  </section>
 
-  <div class="container section">
+  <section class="section">
     <h2>✍️ Blog</h2>
-    <p>🔗 <b>Read My Posts:</b> <a href="https://senthilshanthoshi.wordpress.com/2025/03/21/sql/">SQL Blog - The SQL Journal</a></p>
-  </div>
+    <p>🔗 <strong>Read:</strong> <a href="https://senthilshanthoshi.wordpress.com/2025/03/21/sql/">The SQL Journal</a></p>
+  </section>
 
-  <div class="container section">
-    <h2>📬 Let's Connect</h2>
-    <p align="center">
-      <a href="mailto:shanthoshi0504@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-      <a href="https://www.linkedin.com/in/shanthoshi-s"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-      <a href="https://github.com/shanthoshii"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <section class="section">
+    <h2>📬 Connect</h2>
+    <p style="text-align:center">
+      <a href="mailto:shanthoshi0504@gmail.com">Email</a> |
+      <a href="https://www.linkedin.com/in/shanthoshi-s">LinkedIn</a> |
+      <a href="https://github.com/shanthoshii">GitHub</a>
     </p>
-  </div>
+  </section>
 
-  <div class="container section">
+  <section class="section">
     <h2>📄 Resume</h2>
-    <p>📌 <b>Resume:</b> <a href="https://github.com/shanthoshii/Shanthoshii.github.io/blob/main/Shanthoshi_S.pdf">Click to View</a></p>
-    <p>🔗 <b>Live Portfolio:</b> <a href="https://shanthoshii.github.io">shanthoshii.github.io</a></p>
-    <p style="text-align:center;">🎨 Designed by <b>Shanthoshi S</b> ✨</p>
-  </div>
+    <p style="text-align:center">
+      <strong>Resume:</strong> <a href="https://github.com/shanthoshii/Shanthoshii.github.io/blob/main/Shanthoshi_S.pdf">Click to View</a><br />
+      <strong>Portfolio:</strong> <a href="https://shanthoshii.github.io">shanthoshii.github.io</a>
+    </p>
+  </section>
 
+  <footer class="footer">
+    Designed with ❤️ by Shanthoshi S
+  </footer>
 </body>
 </html>
