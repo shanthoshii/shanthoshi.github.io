@@ -1,6 +1,5 @@
-<h1 align="center">🚀 Hi, I'm Shanthoshi S!</h1>
-
 <p align="center">
+    <b> 🚀 Hi, I'm Shanthoshi S! </b>
   <b>Data Analyst | SQL & Python Enthusiast | Passionate about Insightful Data 📊</b>
 </p>
 
@@ -21,6 +20,16 @@
 
 ---
 
+## 🏅 Academic Achievements  
+
+- **BCom in Computer Applications** – 82% (2021–2024)  
+  - Graduated with distinction from **Sri Krishna Adithya College of Arts and Science**, Bharathiar University  
+  - Ranked among the top 10 students in the department  
+  - Actively participated in academic seminars, workshops, and hackathons  
+  - Completed a major project on **Data Analytics & Business Intelligence**, focusing on industry trends
+
+---
+
 ## 🛠 Skills & Technologies  
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -32,52 +41,22 @@
 
 ---
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Projects</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <style>
-        /* [same styles as you posted] */
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h2 class="projects-title">🚀 My Projects</h2>
-        <div class="projects-grid">
+## 🚀 My Projects  
 
-            <div class="project-card">
-                <i class="fas fa-search fa-2x" style="color:#007bff;"></i>
-                <div class="project-title">LinkedIn Job Scraper</div>
-                <p class="project-description">Scraped job data from LinkedIn using BeautifulSoup and Requests. Saved to CSV and SQLite for analysis.</p>
-                <div class="project-links">
-                    <a href="https://github.com/shanthoshii" class="btn repo-btn">Repo</a>
-                </div>
-            </div>
+### 1. **[LinkedIn Job Scraper](https://github.com/shanthoshii/LinkedIn-Job-Scraper)**  
+   - Scraped job data from LinkedIn using BeautifulSoup and Requests. Saved to CSV and SQLite for analysis.
+   
+### 2. **[Supermarket Sales EDA](https://github.com/shanthoshii/Supermarket-Sales-EDA)**  
+   - Performed EDA on supermarket sales to identify trends, customer behavior, and payment preferences.
 
-            <div class="project-card">
-                <i class="fas fa-store fa-2x" style="color:#28a745;"></i>
-                <div class="project-title">Supermarket Sales EDA</div>
-                <p class="project-description">Performed EDA on supermarket sales to identify trends, customer behavior, and payment preferences.</p>
-                <div class="project-links">
-                    <a href="https://github.com/shanthoshii" class="btn repo-btn">Repo</a>
-                </div>
-            </div>
+### 3. **[Netflix Dashboard – Power BI](https://github.com/shanthoshii/Netflix-Dashboard-PowerBI)**  
+   - Interactive dashboard analyzing Netflix titles by genre, country, rating, and time trends.
 
-            <div class="project-card">
-                <i class="fas fa-film fa-2x" style="color:#F2C811;"></i>
-                <div class="project-title">Netflix Dashboard – Power BI</div>
-                <p class="project-description">Interactive dashboard analyzing Netflix titles by genre, country, rating, and time trends.</p>
-                <div class="project-links">
-                    <a href="https://github.com/shanthoshii" class="btn repo-btn">Repo</a>
-                </div>
-            </div>
+### 4. **[Customer Segmentation Analysis](https://github.com/shanthoshii/Customer-Segmentation-Analysis)**  
+   - Applied clustering techniques (K-means) on customer data to segment customers based on purchasing behavior, enabling targeted marketing strategies.
 
-        </div>
-    </div>
-</body>
-</html>
+### 5. **[Job Listings Scraper](https://github.com/shanthoshii/Job-Listings-Scraper)**  
+   - Developed a job listings scraper using BeautifulSoup and Requests, extracting job data from Glassdoor and other sites for analysis.
 
 ---
 
@@ -94,10 +73,4 @@
   <a href="tel:+918248107171"><img src="https://img.shields.io/badge/Call%20Me-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 </p>
 
----
-
-## 📄 Resume  
-📌 📄 **Resume:** [View Resume](https://github.com/shanthoshii/shanthoshii.github.io/blob/main/Shanthoshi_S.pdf) (Click to View)  
-🔗 **Live Portfolio:** [shanthoshii.github.io](https://shanthoshii.github.io)  
-🎨 Designed by **Shanthoshi S** 🚀
 
