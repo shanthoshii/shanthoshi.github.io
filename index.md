@@ -1,7 +1,7 @@
 <h1 align="center">👋 Hi, I'm Shanthoshi S</h1>
 
 <p align="center">
-  <b>Data Analyst | SQL Enthusiast | Passionate about Turning Data into Stories 📊</b>
+  <b>Data Engineer | Data Analyst Enthusiast | Passionate about Turning Data into Stories 📊</b>
 </p>
 
 <p align="center">
@@ -13,10 +13,23 @@
 ## 🌟 About Me
 
 - 🎓 **Education:** BCom (Computer Applications), Sri Krishna Adithya College of Arts and Science (2021–2024) – 82%
-- 🥉 **Academic Achievement:** Third Rank Holder, Bharathiar University
-- 💼 **Professional Goal:** To apply data analytics and visualization to solve real-world problems
-- 🌱 **Learning Now:** ETL Concepts | Advanced SQL | Data Engineering Tools
-- 🧭 **Currently Seeking:** Entry-Level Data Analyst or Intern Opportunities
+- 💼 **Currently Learning:** PySpark, Machine Learning
+- 🎯 **Aspiration:** Data Engineer, Data Analyst
+- 🧭 **Currently Seeking:** Entry-Level Roles & Internships
+
+---
+
+## ✍️ My Blog
+
+Check out my blog where I share SQL tips, tutorials, and real-world insights:
+
+📌 **The SQL Journal** – [Read Blog](https://senthilshanthoshi.wordpress.com/2025/03/21/sql/)
+
+---
+
+## 🏅 Academic Achievements
+
+- 🥉 **Third Rank Holder** – Bharathiar University, Coimbatore
 
 ---
 
@@ -38,58 +51,50 @@
 ## 🚀 Projects
 
 ### 🛍️ [EDA on Supermarket Sales Data](https://github.com/shanthoshii/Supermarket-EDA)
-- **Description**: Performed detailed exploratory analysis on sales data to understand customer behavior and revenue trends.
-- **Tech Stack**: Python, Pandas, Seaborn, Matplotlib
-- **Key Insights**:
-  - Peak evening sales identified
-  - E-wallet found as most preferred payment method
-  - High revenue observed from Branch B
+- **Description:** Performed detailed exploratory analysis on sales data to understand customer behavior and revenue trends.
+- **Tech Stack:** Python, Pandas, Seaborn, Matplotlib
+- **Key Insights:**
+  - Peak sales in evening
+  - Preferred payment: E-wallet
+  - Branch B generated the highest revenue
 
 ### ⚽ [FIFA Player Dataset Analysis](https://github.com/shanthoshii/FIFA-Players-Data-Analysis)
-- **Description**: Analyzed FIFA player statistics to explore trends across attributes, age, and value.
-- **Tech Stack**: Python, Pandas, NumPy, Seaborn, Matplotlib
-- **Key Insights**:
-  - Top players visualized by potential and value
-  - Strong correlation discovered between overall rating and wages
-  - Clustering used for grouping players by role
+- **Description:** Analyzed FIFA player statistics to explore trends across attributes, age, and value.
+- **Tech Stack:** Python, Pandas, NumPy, Seaborn, Matplotlib
+- **Key Insights:**
+  - Top-rated players grouped by position
+  - Correlation between value and potential
+  - Visualized skills using heatmaps
 
 ### 💼 [Job Listings Scraper – LinkedIn](https://github.com/shanthoshii/LinkedIn-Job-Scraper)
-- **Description**: Built a web scraper to collect job titles, companies, and locations from LinkedIn job search.
-- **Tech Stack**: Python, Requests, BeautifulSoup, SQLite
-- **Key Features**:
-  - Saved structured data to CSV and SQLite
-  - Enabled easy querying for hiring trend analysis
-  - Automatable for regular job alerts
+- **Description:** Built a web scraper to collect job listings from LinkedIn with automation features.
+- **Tech Stack:** Python, Requests, BeautifulSoup, SQLite
+- **Key Features:**
+  - Saved job title, company, location to SQLite
+  - CSV export for analysis
+  - Useful for market trend analysis
 
 ### 🎬 [Netflix Dashboard – Power BI](https://github.com/shanthoshii/Netflix-Dashboard-PowerBI)
-- **Description**: Designed an interactive dashboard analyzing 8800+ Netflix titles across genres, release years, and countries.
-- **Tech Stack**: Power BI, Power Query, DAX
-- **Highlights**:
-  - Genre popularity visualization
-  - Original content trend insights
-  - Release year and country filters for dynamic exploration
+- **Description:** Interactive dashboard with visual insights on 8809 Netflix shows and movies.
+- **Tech Stack:** Power BI, Power Query, DAX
+- **Highlights:**
+  - Content distribution by genre, country, and year
+  - Filterable charts for business storytelling
+  - Trends in original content over time
 
 ### 👥 [Customer Segmentation Analysis](https://github.com/shanthoshii/Customer-Segmentation)
-- **Description**: Applied clustering algorithms to segment customers based on shopping behavior.
-- **Tech Stack**: Python, Scikit-learn, Pandas, Seaborn
-- **Key Features**:
-  - Used K-Means clustering for behavior-based segmentation
-  - Visualized customer groups by annual income and spending score
-  - Enabled targeted marketing recommendations
+- **Description:** Applied clustering to identify patterns in customer purchase behavior.
+- **Tech Stack:** Python, Pandas, Scikit-learn, Seaborn
+- **Key Features:**
+  - K-Means clustering based on income and score
+  - Customer persona creation
+  - Useful for marketing targeting strategies
 
 ---
 
 ## 📚 Certifications
 
 - 🏅 **Associate Data Analyst in SQL** – *Issued by DataCamp*
-
----
-
-## ✍️ My Blog
-
-Check out my blog where I share SQL tips, tutorials, and real-world insights:
-
-📌 **The SQL Journal** – [Read Blog](https://senthilshanthoshi.wordpress.com/2025/03/21/sql/)
 
 ---
 
